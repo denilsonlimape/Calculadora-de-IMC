@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 10px 0px;
+    padding: 10px;
+    align-items: center;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+}
+
+.calc label, input{
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.botoes button{
+    height: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: #2b2a2a;
+    color: #fff;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: 25px; 
+}
+
+.abaixo-peso{
+    color: #1905ff;
+}
+
+.peso-ideal{
+    color: #07ff03;
+}
+
+.acima-do-peso{
+    color: #ff8c00;
+}
+
+.obesidade-grau1{
+    color: #ff6200;
+}
+
+.obesidade-grau2{
+    color: #ff0000;
+}
+
+.obesidade-grau3{
+    color: #8b0000 ;
+}
+
+.erro{
+    color: #6600fe;
+}
+
+.preenc-os-campos{
+    color: #ffae00;
+}
+
+
+
